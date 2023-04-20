@@ -43,7 +43,7 @@ class UserController {
     try {
       res.json(['123', '456'])
     } catch (e) {
-
+      console.log(e)
     }
   }
 }
